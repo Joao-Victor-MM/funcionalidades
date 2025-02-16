@@ -14,3 +14,14 @@ header{
     background-color: rgb(65, 65, 65);
     height: 50px;
 }
+
+button{
+    padding: 15px;
+    background: none;
+    border: none;
+    color: antiquewhite;
+}
+
+button:hover{
+    cursor: pointer;
+}
