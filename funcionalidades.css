@@ -7,13 +7,23 @@
 
 body{
     background-color: rgb(32, 32, 32);
+    transition: all .5s;
 }
+
+body.light{
+    background-color: rgb(230, 230, 227);
+}
+
 header{
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: rgb(65, 65, 65);
     height: 50px;
+}
+
+body.light header{
+    background-color: antiquewhite;
 }
 
 button{
@@ -32,6 +42,22 @@ h1, p, h2, h3{
     color: antiquewhite;
 }
 
+body.light button{
+    color: black;
+}
+
+body.light h1{
+    color: black;
+}
+
+body.light p{
+    color: black;
+}
+
+body.light h3{
+    color: black;
+}
+
 h1{
     position: absolute;
     left: 0;
@@ -48,6 +74,11 @@ h1{
     width: 150px;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
+    transition: all .5s;
+}
+
+body.light .opções{
+    background-color: rgb(176, 177, 179);
 }
 
 .botão-trilho{
@@ -58,13 +89,28 @@ h1{
     height: 15px;
     width: 30px;
     border-radius: 20px;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+.botão-trilho.light{
+    background-color: antiquewhite;
 }
 
 .bola{
     background-color: rgb(22, 22, 22);
+    position: absolute;
     height: 15px;
     width: 15px;
+    left: 0px;
     border-radius: 50%;
+    transition: all .5s;
+}
+
+.bola.light{
+    left: 15px;
+    background-color: rgb(143, 142, 141);
+    transition: all .5s;
 }
 
 .modo{
