@@ -28,7 +28,7 @@ button:hover{
     text-decoration-line: underline;
 }
 
-h1, p{
+h1, p, h2, h3{
     color: antiquewhite;
 }
 
@@ -40,15 +40,21 @@ h1{
 
 .opções{
     display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: rgb(65, 65, 65);
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background-color: rgb(49, 49, 49);
     height: 300px;
     width: 150px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
 
 .botão-trilho{
-    background-color: rgb(49, 47, 47);
+    position: absolute;
+    top: 50px;
+    left: 60px;
+    background-color: rgb(99, 95, 95);
     height: 15px;
     width: 30px;
     border-radius: 20px;
@@ -59,4 +65,14 @@ h1{
     height: 15px;
     width: 15px;
     border-radius: 50%;
+}
+
+.modo{
+    position: absolute;
+    top: 45px;
+}
+
+.configuraçõesh3{
+    position: relative;
+    left: 10px;
 }
