@@ -37,3 +37,12 @@ h1{
     left: 0;
     top: 0;
 }
+
+.opções{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(65, 65, 65);
+    height: 300px;
+    width: 150px;
+}
