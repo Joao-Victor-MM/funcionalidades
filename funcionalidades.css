@@ -68,7 +68,7 @@ h1{
     display: flex;
     position: absolute;
     top: 0px;
-    right: 0px;
+    right: -150px;
     background-color: rgb(49, 49, 49);
     height: 300px;
     width: 150px;
