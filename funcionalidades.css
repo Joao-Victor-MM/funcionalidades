@@ -8,6 +8,7 @@
 body{
     background-color: rgb(32, 32, 32);
     transition: all .5s;
+    overflow-x: hidden;
 }
 
 body.light{
