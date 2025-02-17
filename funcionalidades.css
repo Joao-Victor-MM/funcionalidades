@@ -147,13 +147,44 @@ body.light .opções{
     right: 0;
 }
 
-main{
+.txt-inicio{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-.txt-inicio{
+.txt-mais{
     position: absolute;
+    top: 50%;
+    left: 200%;
+    transform: translate(-50%,-50%);
+}
+
+body.homemenu .txt-inicio{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+body.homemenu .txt-mais{
+    position: absolute;
+    top: 50%;
+    left: 200%;
+    transform: translate(-50%,-50%);
+}
+
+body.moremenu .txt-inicio{
+    position: absolute;
+    top: 50%;
+    left: 200%;
+    transform: translate(-50%,-50%);
+}
+
+body.moremenu .txt-mais{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
