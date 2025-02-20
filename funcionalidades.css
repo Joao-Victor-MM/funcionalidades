@@ -8,7 +8,7 @@
 body{
     background-color: rgb(32, 32, 32);
     transition: all .5s;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 body.light{
@@ -147,44 +147,46 @@ body.light .opções{
     right: 0;
 }
 
-.txt-inicio{
-    position: absolute;
+main{
+    position:absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%,-50%);
+}
+
+.txt-inicio{
+    position: relative;
+    left: 0;
+    top: 50px;
+    transition: all .5s;
 }
 
 .txt-mais{
-    position: absolute;
-    top: 50%;
-    left: 200%;
-    transform: translate(-50%,-50%);
+    position: relative;
+    right: -1000px;
+    top: -100px;
+    transition: all .5s
 }
 
 body.homemenu .txt-inicio{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    position: relative;
+    left: 0;
+    top: 50px;
+    
 }
 
 body.homemenu .txt-mais{
-    position: absolute;
-    top: 50%;
-    left: 200%;
-    transform: translate(-50%,-50%);
+    position: relative;
+    right: -1000px;
+    top: -100px;
 }
 
 body.moremenu .txt-inicio{
-    position: absolute;
-    top: 50%;
-    left: 200%;
-    transform: translate(-50%,-50%);
+    position: relative;
+    left: -2000px;
 }
 
 body.moremenu .txt-mais{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    position: relative;
+    right: 0;
 }
