@@ -7,6 +7,8 @@ let configmenu = document.getElementById("configurações")
 
 let home = document.getElementById("inicio")
 let more = document.getElementById("mais")
+let mainhome = document.getElementById("home-content")
+let mainmore = document.getElementById("more-content")
 
 trilho.addEventListener('click', ()=>{
     trilho.classList.toggle("light")
@@ -21,11 +23,15 @@ configbutton.addEventListener('click', ()=>{
 })
 
 home.addEventListener('click', ()=>{
-    body.classList.add("homemenu")
-    body.classList.remove("moremenu")
+    mainhome.classList.add("homemenu")
+    mainmore.classList.add("homemenu")
+    mainmore.classList.remove("moremenu")
+    mainhome.classList.remove("moremenu")
 })
 
 more.addEventListener('click', ()=>{
-    body.classList.add("moremenu")
-    body.classList.remove("homemenu")
+    mainhome.classList.remove("homemenu")
+    mainmore.classList.remove("homemenu")
+    mainmore.classList.add("moremenu")
+    mainhome.classList.add("moremenu")
 })

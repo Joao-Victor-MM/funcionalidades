@@ -148,45 +148,41 @@ body.light .opções{
 }
 
 main{
-    position:absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
 }
 
-.txt-inicio{
+.home-layout{
     position: relative;
     left: 0;
-    top: 50px;
     transition: all .5s;
 }
 
-.txt-mais{
+.more-layout{
     position: relative;
-    right: -1000px;
-    top: -100px;
-    transition: all .5s
+    right: -2000px;
+    transition: all .5s;
 }
 
-body.homemenu .txt-inicio{
+main.homemenu .home-layout{
     position: relative;
     left: 0;
-    top: 50px;
-    
 }
 
-body.homemenu .txt-mais{
+main.homemenu .more-layout{
     position: relative;
-    right: -1000px;
-    top: -100px;
+    right: -2000px;
 }
 
-body.moremenu .txt-inicio{
+.more-content.moremenu .more-layout{
+    position: relative;
+    right: 0px;
+}
+
+.home-content.moremenu .home-layout{
     position: relative;
     left: -2000px;
 }
 
-body.moremenu .txt-mais{
-    position: relative;
-    right: 0;
-}
